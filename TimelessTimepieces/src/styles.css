@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+/* Navbar Styling */
+nav {
+  background-color: rgb(155, 17, 30);
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.nav-row-1 {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-icons * {
+  font-size: 20px;
+  color: white;
+}
+
+.logo {
+  margin-top: 10px;
+  height: 50px;
+}
+
+.nav-row-2 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 10px;
+  gap: 40px;
+  flex: 1;
+}
+
+.rolex {
+  font-family: 'Cormorant SC', serif;
+  font-size: 20px;
+}
+
+.ap {
+  font-family: 'Cormorant SC', serif;
+  font-size: 23px;
+}
+
+.patek {
+  font-family: 'Roboto', serif;
+  font-size: 19px;
+}
+
+.omega {
+  font-family: 'Afacad', serif;
+  font-size: 21px;
+}
