@@ -15,6 +15,15 @@ nav {
   padding-left: 40px;
 }
 
+.nav-row-1 * i, .nav-row-2 > * {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.nav-row-1 * i:hover, .nav-row-2 > *:hover {
+  opacity: .7;
+}
+
 .nav-row-1 {
   display: flex;
   justify-content: space-between;
@@ -42,7 +51,7 @@ nav {
   justify-content: center;
   align-items: end;
   padding-bottom: 10px;
-  gap: 40px;
+  gap: 5vw;
   flex: 1;
 }
 
