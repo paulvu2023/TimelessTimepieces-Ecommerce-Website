@@ -12,10 +12,10 @@ export default function Navbar() {
         </div>
       </div>
       <div className="nav-row-2">
-        <div className="rolex">ROLEX</div>
-        <div className="ap">Audemars Piguet</div>
-        <div className="patek">PATEK PHILIPPE</div>
-        <div className="omega">OMEGA</div>
+        <div>ROLEX</div>
+        <div>AUDEMARS PIGUET</div>
+        <div>PATEK PHILIPPE</div>
+        <div>OMEGA</div>
       </div>
     </nav>
   );

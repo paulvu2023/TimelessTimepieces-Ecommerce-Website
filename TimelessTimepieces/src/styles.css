@@ -7,14 +7,10 @@
 
 /* Navbar Styling */
 nav {
-  background-color: rgb(155, 17, 30);
   height: 100px;
   display: flex;
   flex-direction: column;
-  padding-right: 40px;
-  padding-left: 40px;
 }
-
 .nav-row-1 * i, .nav-row-2 > * {
   opacity: 1;
   transition: opacity 0.25s ease-in-out;
@@ -28,49 +24,40 @@ nav {
   display: flex;
   justify-content: space-between;
   flex: 1;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .nav-icons {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 15px;
 }
 
 .nav-icons * {
   font-size: 20px;
-  color: white;
+  color: black;
+  padding: 5px;
 }
 
 .logo {
-  margin-top: 10px;
-  height: 50px;
+  margin-top: 5px;
+  height: 60px;
 }
 
 .nav-row-2 {
+  background: #282828;
   display: flex;
   justify-content: center;
   align-items: end;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   gap: 5vw;
   flex: 1;
 }
 
-.rolex {
-  font-family: 'Cormorant SC', serif;
-  font-size: 20px;
-}
-
-.ap {
-  font-family: 'Cormorant SC', serif;
-  font-size: 23px;
-}
-
-.patek {
-  font-family: 'Roboto', serif;
-  font-size: 19px;
-}
-
-.omega {
-  font-family: 'Afacad', serif;
-  font-size: 21px;
+.nav-row-2 div {
+  font-family: 'Work sans', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
 }
