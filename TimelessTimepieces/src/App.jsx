@@ -7,9 +7,9 @@ import Navbar from './components/Navbar'
 function App() {
   return (
     <>
+      <Navbar />
       <Routes>
-        <Route path="/">
-          <Route index element={<Navbar />} />
+        <Route path="/" element={<Home />}>
         </Route>
       </Routes>
     </>

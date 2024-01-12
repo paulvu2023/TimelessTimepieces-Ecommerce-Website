@@ -7,7 +7,7 @@
 
 /* Navbar Styling */
 nav {
-  height: 100px;
+  height: 120px;
   display: flex;
   flex-direction: column;
 }
@@ -46,12 +46,12 @@ nav {
 }
 
 .nav-row-2 {
-  background: #282828;
+  background: black;
   display: flex;
   justify-content: center;
   align-items: end;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 18px;
+  padding-bottom: 18px;
   gap: 5vw;
   flex: 1;
 }
