@@ -5,27 +5,40 @@
   color: white;
 }
 
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
 /* Navbar Styling */
 nav {
   height: 120px;
   display: flex;
   flex-direction: column;
 }
-.nav-row-1 * i, .nav-row-2 > * {
-  opacity: 1;
-  transition: opacity 0.25s ease-in-out;
+
+.placeholder {
+  width: 72.5px;
 }
 
-.nav-row-1 * i:hover, .nav-row-2 > *:hover {
+.nav-row-1 * i, .nav-row-2 > div > div {
+  opacity: 1;
+  transition: opacity 0.15s ease-in-out;
+}
+
+.nav-row-1 * i:hover, .nav-row-2 > div > div:hover {
   opacity: .7;
 }
 
 .nav-row-1 {
+  background: black;
   display: flex;
   justify-content: space-between;
   flex: 1;
   padding-left: 40px;
   padding-right: 40px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid gold;
 }
 
 .nav-icons {
@@ -36,7 +49,7 @@ nav {
 
 .nav-icons * {
   font-size: 20px;
-  color: black;
+  color: white;
   padding: 5px;
 }
 
@@ -46,18 +59,30 @@ nav {
 }
 
 .nav-row-2 {
-  background: black;
   display: flex;
+  flex: 1;
   justify-content: center;
-  align-items: end;
+  background: black;
   padding-top: 18px;
   padding-bottom: 18px;
-  gap: 5vw;
-  flex: 1;
 }
 
-.nav-row-2 div {
+.nav-row-2 > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  width: 50%;
+}
+
+.nav-row-2 > div > div {
   font-family: 'Work sans', sans-serif;
   font-size: 16px;
   font-weight: 800;
+}
+
+/* Home Styling */
+.home {
+  background: black;
+  width: 100%;
+  height: 100%;
 }

@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav>
       <div className="nav-row-1">
-        <div></div>
+        <div className="placeholder"></div>
         <img className="logo" src={logo}/>
         <div className="nav-icons">
           <i className="fa-solid fa-magnifying-glass"></i>
@@ -12,10 +12,12 @@ export default function Navbar() {
         </div>
       </div>
       <div className="nav-row-2">
-        <div>ROLEX</div>
-        <div>AUDEMARS PIGUET</div>
-        <div>PATEK PHILIPPE</div>
-        <div>OMEGA</div>
+        <div>
+          <div>ROLEX</div>
+          <div>AUDEMARS PIGUET</div>
+          <div>PATEK PHILIPPE</div>
+          <div>OMEGA</div>
+        </div>
       </div>
     </nav>
   );
