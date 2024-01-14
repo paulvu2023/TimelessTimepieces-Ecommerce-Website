@@ -86,10 +86,10 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 200px;
   padding-top: 130px;
   background: black;
   width: 100%;
-  height: 100%;
 }
 
 .home-flex {
@@ -99,6 +99,7 @@ nav {
 
 .home-flex > img {
   width: 35vw;
+  height: 100%;
 }
 
 .home-flex > div {
