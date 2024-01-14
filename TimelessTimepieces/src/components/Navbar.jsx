@@ -14,8 +14,8 @@ export default function Navbar() {
       <div className="nav-row-2">
         <div>
           <div>ROLEX</div>
-          <div>AUDEMARS PIGUET</div>
           <div>PATEK PHILIPPE</div>
+          <div>AUDEMARS PIGUET</div>
           <div>OMEGA</div>
         </div>
       </div>
