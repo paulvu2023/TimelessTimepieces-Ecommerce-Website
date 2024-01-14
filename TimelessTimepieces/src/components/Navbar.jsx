@@ -16,7 +16,7 @@ export default function Navbar() {
           <div>ROLEX</div>
           <div>PATEK PHILIPPE</div>
           <div>AUDEMARS PIGUET</div>
-          <div>OMEGA</div>
+          <div>RICHARD MILLE</div>
         </div>
       </div>
     </nav>
