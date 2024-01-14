@@ -9,7 +9,7 @@ export default function Home() {
           <div>
             <h1>ROLEX</h1>
             <h2>Founded in 1905 by watchmaker Hans Wilsdorf, Rolex crafts precision timepieces for dynamic lifestyles, serving athletes, explorers, and those in perpetual motion.</h2>
-            <Link className="home-link" to="">Find your Rolex</Link>
+            <Link className="home-link" to="">Shop Rolex</Link>
           </div>
         </div>
       </div>
@@ -17,12 +17,22 @@ export default function Home() {
         <div className="home-flex">
           <div>
             <h1>PATEK PHILIPPE</h1>
-            <h2>Founded in 1905 by watchmaker Hans Wilsdorf, Rolex crafts precision timepieces for dynamic lifestyles, serving athletes, explorers, and those in perpetual motion.</h2>
-            <Link className="home-link" to="">Find your Rolex</Link>
+            <h2>Pioneered in 1839 by Antoine Norbert de Patek and Adrien Philippe, Patek Philippe epitomizes timeless elegance and precision, fusing entrepreneurial spirit with technical brilliance.</h2>
+            <Link className="home-link" to="">Shop Rolex</Link>
           </div>
           <img src="https://www.globalicejewelry.com/cdn/shop/collections/IMG_6070_1200x1200.jpg?v=1653999407" />
         </div>
       </div>
+      <div className="home-card">
+        <div className="home-flex">
+          <img src="https://watchmydiamonds.com/media/catalog/product/cache/1/image/1280x/040ec09b1e35df139433887a97daa66f/i/m/img_4665.jpg" alt="" />
+          <div>
+            <h1>AUDEMARS PIGUET</h1>
+            <h2>Established in 1875, Audemars Piguet epitomizes Swiss excellence, from pocket watches to the iconic Royal Oak, embodying precision, enduring craftsmanship, and timeless luxury.</h2>
+            <Link className="home-link" to="">Shop Rolex</Link>
+          </div>
+        </div>
+      </div>  
     </div>
   )
 }
