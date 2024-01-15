@@ -29,7 +29,7 @@ export default function Home() {
           <div>
             <h1>AUDEMARS PIGUET</h1>
             <h2>Established in 1875, Audemars Piguet epitomizes Swiss excellence, from pocket watches to the iconic Royal Oak, embodying precision, enduring craftsmanship, and timeless luxury.</h2>
-            <Link className="home-link" to="">Shop Rolex</Link>
+            <Link className="home-link" to="">Shop Audemars Piguet</Link>
           </div>
         </div>
       </div>
