@@ -21,12 +21,19 @@ nav {
   width: 72.5px;
 }
 
-.nav-row-1 * i, .nav-row-2 > div > div {
-  opacity: 1;
-  transition: opacity 0.15s ease-in-out;
+.nav-row-2 > div > .nav-link {
+  font-family: 'Work sans', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
 }
 
-.nav-row-1 * i:hover, .nav-row-2 > div > div:hover {
+.nav-row-1 * i, .nav-row-2 > div > .nav-link {
+  opacity: 1;
+  transition: opacity 0.15s ease-in-out;
+  text-decoration: none;
+}
+
+.nav-row-1 * i:hover, .nav-row-2 > div > .nav-link:hover {
   opacity: .7;
 }
 
@@ -73,12 +80,6 @@ nav {
   justify-content: space-around;
   align-items: end;
   width: 50%;
-}
-
-.nav-row-2 > div > div {
-  font-family: 'Work sans', sans-serif;
-  font-size: 16px;
-  font-weight: 800;
 }
 
 /* Home Styling */

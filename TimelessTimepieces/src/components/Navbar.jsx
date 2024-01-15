@@ -1,4 +1,5 @@
 import logo from "../assets/logo.png"
+import { Link } from "react-router-dom"
 
 export default function Navbar() {
   return (
@@ -13,10 +14,10 @@ export default function Navbar() {
       </div>
       <div className="nav-row-2">
         <div>
-          <div>ROLEX</div>
-          <div>PATEK PHILIPPE</div>
-          <div>AUDEMARS PIGUET</div>
-          <div>OMEGA</div>
+          <Link className="nav-link">ROLEX</Link>
+          <Link className="nav-link">PATEK PHILIPPE</Link>
+          <Link className="nav-link">AUDEMARS PIGUET</Link>
+          <Link className="nav-link">OMEGA</Link>
         </div>
       </div>
     </nav>
