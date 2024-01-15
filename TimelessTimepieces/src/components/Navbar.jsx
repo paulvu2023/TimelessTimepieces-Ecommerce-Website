@@ -1,12 +1,15 @@
 import logo from "../assets/logo.png"
 import { Link } from "react-router-dom"
+import Home from "./Home";
 
 export default function Navbar() {
   return (
     <nav>
       <div className="nav-row-1">
         <div className="placeholder"></div>
-        <img className="logo" src={logo}/>
+        <Link to="/">
+          <img className="logo" src={logo}/>
+        </Link>
         <div className="nav-icons">
           <i className="fa-solid fa-magnifying-glass"></i>
           <i className="fa-solid fa-bag-shopping"></i>

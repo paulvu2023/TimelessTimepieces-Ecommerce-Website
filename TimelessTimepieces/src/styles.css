@@ -134,3 +134,7 @@ nav {
 .home-link:hover {
   border-bottom: 1px solid gold;
 }
+
+.home-card:last-child {
+  margin-bottom: 200px;
+}
