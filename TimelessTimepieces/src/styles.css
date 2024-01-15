@@ -125,10 +125,11 @@ nav {
 .home-link {
   font-family: Roboto, sans-serif;
   font-weight: 800;
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px solid white;
   transition: all 0.25s ease-in-out;
 }
 
 .home-link:hover {
-  color:gold;
+  border-bottom: 1px solid gold;
 }
