@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './styles.css'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />}>
         </Route>
       </Routes>
+      <Footer />
     </>
   )
 }
