@@ -1,3 +1,24 @@
+import image1 from "./assets/1.png";
+import image2 from "./assets/2.png";
+import image3 from "./assets/3.png";
+import image4 from "./assets/4.png";
+import image5 from "./assets/5.png";
+import image6 from "./assets/6.png";
+import image7 from "./assets/7.png";
+import image8 from "./assets/8.png";
+import image9 from "./assets/9.png";
+import image10 from "./assets/10.png";
+import image11 from "./assets/11.png";
+import image12 from "./assets/12.png";
+import image13 from "./assets/13.png";
+import image14 from "./assets/14.png";
+import image15 from "./assets/15.png";
+import image16 from "./assets/16.png";
+import image17 from "./assets/17.png";
+import image18 from "./assets/18.png";
+import image19 from "./assets/19.png";
+import image20 from "./assets/20.png";
+
 export const PRODUCTS = [
   // Each array is a list of watches from a particular watch brand
   [
@@ -5,7 +26,7 @@ export const PRODUCTS = [
       id: 1,
       productName: "Yacht Master",
       price: 4900,
-      productImage: "placeholder",
+      productImage: image1,
     },
   ],
   [
@@ -13,7 +34,7 @@ export const PRODUCTS = [
       id: 2,
       productName: "Oyster Perpetual",
       price: 7400,
-      productImage: "placeholder",
+      productImage: image2,
     },
   ],
   [
@@ -21,7 +42,7 @@ export const PRODUCTS = [
       id: 3,
       productName: "Explorer",
       price: 7800,
-      productImage: "placeholder",
+      productImage: image3,
     },
   ],
   [
@@ -29,7 +50,7 @@ export const PRODUCTS = [
       id: 4,
       productName: "Submariner",
       price: 9100,
-      productImage: "placeholder",
+      productImage: image4,
     },
   ],
   [
@@ -37,7 +58,7 @@ export const PRODUCTS = [
       id: 5,
       productName: "Datejust",
       price: 10500,
-      productImage: "placeholder",
+      productImage: image5,
     },
   ],
   [
@@ -45,7 +66,7 @@ export const PRODUCTS = [
       id: 6,
       productName: "Submariner",
       price: 11200,
-      productImage: "placeholder",
+      productImage: image6,
     },
   ],
   [
@@ -53,7 +74,7 @@ export const PRODUCTS = [
       id: 7,
       productName: "Datejust",
       price: 11500,
-      productImage: "placeholder",
+      productImage: image7,
     },
   ],
   [
@@ -61,7 +82,7 @@ export const PRODUCTS = [
       id: 8,
       productName: "Datejust",
       price: 12600,
-      productImage: "placeholder",
+      productImage: image8,
     },
   ],
   [
@@ -69,7 +90,7 @@ export const PRODUCTS = [
       id: 9,
       productName: "Datejust",
       price: 13800,
-      productImage: "placeholder",
+      productImage: image9,
     },
   ],
   [
@@ -77,7 +98,7 @@ export const PRODUCTS = [
       id: 10,
       productName: "Datejust",
       price: 13950,
-      productImage: "placeholder",
+      productImage: image10,
     },
   ],
   [
@@ -85,7 +106,7 @@ export const PRODUCTS = [
       id: 11,
       productName: "Sea Dweller Deepsea",
       price: 14500,
-      productImage: "placeholder",
+      productImage: image11,
     },
   ],
   [
@@ -93,7 +114,7 @@ export const PRODUCTS = [
       id: 12,
       productName: "GMT-Master ii",
       price: 19500,
-      productImage: "placeholder",
+      productImage: image12,
     },
   ],
   [
@@ -101,7 +122,7 @@ export const PRODUCTS = [
       id: 13,
       productName: "Day Date",
       price: 19500,
-      productImage: "placeholder",
+      productImage: image13,
     },
   ],
   [
@@ -109,7 +130,7 @@ export const PRODUCTS = [
       id: 14,
       productName: "Daytona",
       price: 20700,
-      productImage: "placeholder",
+      productImage: image14,
     },
   ],
   [
@@ -117,7 +138,7 @@ export const PRODUCTS = [
       id: 15,
       productName: "Daytona",
       price: 21400,
-      productImage: "placeholder",
+      productImage: image15,
     },
   ],
   [
@@ -125,7 +146,7 @@ export const PRODUCTS = [
       id: 16,
       productName: "Daytona",
       price: 21800,
-      productImage: "placeholder",
+      productImage: image16,
     },
   ],
   [
@@ -133,7 +154,7 @@ export const PRODUCTS = [
       id: 17,
       productName: "Oyster Perpetual",
       price: 25000,
-      productImage: "placeholder",
+      productImage: image17,
     },
   ],
   [
@@ -141,7 +162,7 @@ export const PRODUCTS = [
       id: 18,
       productName: "Sea Dweller",
       price: 29500,
-      productImage: "placeholder",
+      productImage: image18,
     },
   ],
   [
@@ -149,7 +170,7 @@ export const PRODUCTS = [
       id: 19,
       productName: "Sky Dweller",
       price: 35000,
-      productImage: "placeholder",
+      productImage: image19,
     },
   ],
   [
@@ -157,7 +178,7 @@ export const PRODUCTS = [
       id: 20,
       productName: "Daytona",
       price: 37000,
-      productImage: "placeholder",
+      productImage: image20,
     },
   ],
 ];
