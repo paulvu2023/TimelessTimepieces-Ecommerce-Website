@@ -80,17 +80,9 @@ export const PRODUCTS = [
       productImage: "placeholder",
     },
   ],
-  // [
-  //   {
-  //     id: 11,
-  //     productName: "Oyster Perpetual",
-  //     price: 14200,
-  //     productImage: "placeholder",
-  //   },
-  // ],
   [
     {
-      id: 12,
+      id: 11,
       productName: "Sea Dweller Deepsea",
       price: 14500,
       productImage: "placeholder",
@@ -98,7 +90,7 @@ export const PRODUCTS = [
   ],
   [
     {
-      id: 13,
+      id: 12,
       productName: "GMT-Master ii",
       price: 19500,
       productImage: "placeholder",
@@ -106,7 +98,7 @@ export const PRODUCTS = [
   ],
   [
     {
-      id: 14,
+      id: 13,
       productName: "Day Date",
       price: 19500,
       productImage: "placeholder",
@@ -114,7 +106,7 @@ export const PRODUCTS = [
   ],
   [
     {
-      id: 15,
+      id: 14,
       productName: "Daytona",
       price: 20700,
       productImage: "placeholder",
@@ -122,7 +114,7 @@ export const PRODUCTS = [
   ],
   [
     {
-      id: 16,
+      id: 15,
       productName: "Daytona",
       price: 21400,
       productImage: "placeholder",
@@ -130,7 +122,7 @@ export const PRODUCTS = [
   ],
   [
     {
-      id: 17,
+      id: 16,
       productName: "Daytona",
       price: 21800,
       productImage: "placeholder",
@@ -138,7 +130,7 @@ export const PRODUCTS = [
   ],
   [
     {
-      id: 18,
+      id: 17,
       productName: "Oyster Perpetual",
       price: 25000,
       productImage: "placeholder",
@@ -146,7 +138,7 @@ export const PRODUCTS = [
   ],
   [
     {
-      id: 19,
+      id: 18,
       productName: "Sea Dweller",
       price: 29500,
       productImage: "placeholder",
@@ -154,7 +146,7 @@ export const PRODUCTS = [
   ],
   [
     {
-      id: 20,
+      id: 19,
       productName: "Sky Dweller",
       price: 35000,
       productImage: "placeholder",
@@ -162,7 +154,7 @@ export const PRODUCTS = [
   ],
   [
     {
-      id: 21,
+      id: 20,
       productName: "Daytona",
       price: 37000,
       productImage: "placeholder",
