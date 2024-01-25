@@ -1,6 +1,5 @@
 import logo from "../assets/logo.png"
 import { Link } from "react-router-dom"
-import Home from "./Home";
 
 export default function Navbar() {
   return (
@@ -17,7 +16,7 @@ export default function Navbar() {
       </div>
       <div className="nav-row-2">
         <div>
-          <Link className="nav-link">ROLEX</Link>
+          <Link to="/rolex" className="nav-link">ROLEX</Link>
           <Link className="nav-link">PATEK PHILIPPE</Link>
           <Link className="nav-link">AUDEMARS PIGUET</Link>
           <Link className="nav-link">OMEGA</Link>

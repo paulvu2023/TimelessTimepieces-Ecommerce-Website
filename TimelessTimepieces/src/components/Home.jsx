@@ -9,7 +9,7 @@ export default function Home() {
           <div>
             <h1>ROLEX</h1>
             <h2>Founded in 1905 by watchmaker Hans Wilsdorf, Rolex crafts precision timepieces for dynamic lifestyles, serving athletes, explorers, and those in perpetual motion.</h2>
-            <Link className="home-link" to="">Shop Rolex</Link>
+            <Link className="home-link" to="/rolex">Shop Rolex</Link>
           </div>
         </div>
       </div>
