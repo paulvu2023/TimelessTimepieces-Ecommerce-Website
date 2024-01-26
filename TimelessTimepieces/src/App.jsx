@@ -3,7 +3,7 @@ import { useState } from 'react'
 import './styles.css'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
-import Rolex from './components/rolex'
+import RolexPage from './components/RolexPage'
 import Footer from './components/Footer'
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/rolex" element={<Rolex />} />
+        <Route path="/rolex" element={<RolexPage />} />
       </Routes>
       <Footer />
     </>
