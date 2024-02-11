@@ -149,7 +149,6 @@ nav {
 }
 
 .rolex-card {
-  width: 20vw;
   height: 35vw;
   display: flex;
   flex-direction: column;
@@ -158,7 +157,7 @@ nav {
 }
 
 .rolex-card img{
-  width: 100%;
+  width: 18vw;
   margin-bottom: 35px;
 }
 
@@ -170,7 +169,7 @@ nav {
 }
 
 .product-price {
-  margin-top: 15px;
+  margin-top: 10px;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: 800;
