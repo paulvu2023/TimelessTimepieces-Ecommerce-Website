@@ -139,3 +139,40 @@ nav {
 .home-card:last-child {
   margin-bottom: 200px;
 }
+
+/* Rolex Page Styling */
+.rolex-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 92.5px;
+  padding-right: 92.5px;
+}
+
+.rolex-card {
+  width: 20vw;
+  height: 35vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rolex-card img{
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.product-name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.product-price {
+  margin-top: 15px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
