@@ -1,4 +1,4 @@
-export default function RolexCard({id, productName, price, productImage}) {
+export default function RolexWatch({id, productName, price, productImage}) {
   return (
     <div className="watch-card">
       <img src={productImage} />
