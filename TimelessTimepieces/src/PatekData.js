@@ -1,25 +1,24 @@
-import image1 from "./assets/RolexImages1.png";
-import image2 from "./assets/RolexImages2.png";
-import image3 from "./assets/RolexImages3.png";
-import image4 from "./assets/RolexImages4.png";
-import image5 from "./assets/RolexImages5.png";
-import image6 from "./assets/RolexImages6.png";
-import image7 from "./assets/RolexImages7.png";
-import image8 from "./assets/RolexImages8.png";
-import image9 from "./assets/RolexImages9.png";
-import image10 from "./assets/RolexImages10.png";
-import image11 from "./assets/RolexImages11.png";
-import image12 from "./assets/RolexImages12.png";
-import image13 from "./assets/RolexImages13.png";
-import image14 from "./assets/RolexImages14.png";
-import image15 from "./assets/RolexImages15.png";
-import image16 from "./assets/RolexImages16.png";
-import image17 from "./assets/RolexImages17.png";
-import image18 from "./assets/RolexImages18.png";
-import image19 from "./assets/RolexImages19.png";
-import image20 from "./assets/RolexImages20.png";
+import image1 from "./assets/PatekImages/1.png";
+import image2 from "./assets/PatekImages/2.png";
+import image3 from "./assets/PatekImages/3.png";
+import image4 from "./assets/PatekImages/4.png";
+import image5 from "./assets/PatekImages/5.png";
+import image6 from "./assets/PatekImages/6.png";
+import image7 from "./assets/PatekImages/7.png";
+import image8 from "./assets/PatekImages/8.png";
+import image9 from "./assets/PatekImages/9.png";
+import image10 from "./assets/PatekImages/10.png";
+import image11 from "./assets/PatekImages/11.png";
+import image12 from "./assets/PatekImages/12.png";
+import image13 from "./assets/PatekImages/13.png";
+import image14 from "./assets/PatekImages/14.png";
+import image15 from "./assets/PatekImages/15.png";
+import image16 from "./assets/PatekImages/16.png";
+import image17 from "./assets/PatekImages/17.png";
+import image18 from "./assets/PatekImages/18.png";
+import image19 from "./assets/PatekImages/19.png";
 
-export const RolexData = [
+export const PatekData = [
   {
     id: 1,
     bezel: "Platinum",
@@ -209,15 +208,5 @@ export const RolexData = [
     productName: "Sky Dweller",
     price: 35000,
     productImage: image19,
-  },
-  {
-    id: 20,
-    bezel: "18K White Gold",
-    caseMaterial: "18K White Gold",
-    caseSize: "40 MM",
-    dialColor: "White, Black",
-    productName: "Daytona",
-    price: 37000,
-    productImage: image20,
   },
 ];
