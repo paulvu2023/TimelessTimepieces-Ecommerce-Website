@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="nav-row-2">
         <div>
           <Link to="/rolex" className="nav-link">ROLEX</Link>
-          <Link className="nav-link">PATEK PHILIPPE</Link>
+          <Link to="/patek" className="nav-link">PATEK PHILIPPE</Link>
           <Link className="nav-link">AUDEMARS PIGUET</Link>
           <Link className="nav-link">OMEGA</Link>
         </div>
