@@ -18,7 +18,7 @@ export default function Home() {
           <div>
             <h1>PATEK PHILIPPE</h1>
             <h2>Pioneered in 1839 by Antoine Norbert de Patek and Adrien Philippe, Patek Philippe epitomizes timeless elegance and precision, fusing entrepreneurial spirit with technical brilliance.</h2>
-            <Link className="home-link" to="">Shop Patek Philippe</Link>
+            <Link className="home-link" to="/patek">Shop Patek Philippe</Link>
           </div>
           <img src="https://www.globalicejewelry.com/cdn/shop/collections/IMG_6070_1200x1200.jpg?v=1653999407" />
         </div>
