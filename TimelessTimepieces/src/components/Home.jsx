@@ -38,7 +38,7 @@ export default function Home() {
           <div>
             <h1>OMEGA</h1>
             <h2>Originating in 1848, Omega, pioneered by Louis Brandt, stands as a luminary in Swiss watchmaking. From its inception to the present, Omega watches symbolize precision, innovation, and enduring elegance, with a legendary connection to the moon, marking a celestial chapter in the craftsmanship of time.</h2>
-            <Link className="home-link" to="">Shop Omega</Link>
+            <Link className="home-link" to="/omega">Shop Omega</Link>
           </div>
           <img src="https://i.ebayimg.com/images/g/WMwAAOSwgKdiQHw1/s-l1600.jpg" alt="" />
         </div>
