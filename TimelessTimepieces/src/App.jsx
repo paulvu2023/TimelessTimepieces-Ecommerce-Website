@@ -7,10 +7,12 @@ import RolexPage from './components/RolexPage'
 import PatekPage from './components/PatekPage'
 import OmegaPage from './components/OmegaPage'
 import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
